@@ -5,4 +5,4 @@ total_people = int(input("How many people will split the bill?"))
 
 total_for_each = (total * (1 + tip/100)) / total_people
 
-print(f"Each person should pay: {total_for_each}")
+print(f"Each person should pay {total_for_each}")
